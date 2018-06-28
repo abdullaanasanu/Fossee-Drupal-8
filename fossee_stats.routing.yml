@@ -1,0 +1,47 @@
+fossee_stats.dropdowns:
+  path: '/dropdowns'
+  defaults:
+    _title: 'FOSSEE STATS'
+    _controller: 'Drupal\fossee_stats\Controller\StatsMap::dropdown'
+  requirements:
+    _permission: 'access fossee_stats'
+
+fossee_stats.fossee-stats-map:
+  path: '/fossee-stats-map'
+  defaults:
+    _title: 'FOSSEE STATS'
+    _form: 'Drupal\fossee_stats\Form\FossForm'
+  requirements:
+    _permission: 'access fossee_stats'
+
+fossee_stats.state-map-stats:
+  path: '/state-map-stats'
+  defaults:
+    _title: 'FOSSEE STATS'
+    _controller: 'Drupal\fossee_stats\Controller\StatsMap::state_map_stats'
+  requirements:
+    _permission: 'access fossee_stats'
+
+fossee_stats.map-stats:
+  path: '/map-stats'
+  defaults:
+    _title: 'FOSSEE STATS'
+    _controller: 'Drupal\fossee_stats\Controller\StatsMap::map_stats'
+  requirements:
+    _permission: 'access fossee_stats'
+
+fossee_stats.state-details:
+  path: '/state-details'
+  defaults:
+    _title: 'FOSSEE STATS'
+    _controller: 'Drupal\fossee_stats\Controller\StatsMap::state_details'
+  requirements:
+    _permission: 'access fossee_stats'
+
+fossee_stats.post-office-data:
+  path: '/post-office-data'
+  defaults:
+    _title: 'FOSSEE STATS'
+    _controller: 'Drupal\fossee_stats\Controller\StatsMap::post_office_data'
+  requirements:
+    _permission: 'access fossee_stats'

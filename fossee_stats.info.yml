@@ -1,0 +1,6 @@
+name: Fossee stats
+description: Fossee stats for FOSSEE .
+package: STATISTICS
+core: 8.x
+type: module
+configure: block_header.settings

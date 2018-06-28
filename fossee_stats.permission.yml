@@ -1,0 +1,39 @@
+access fossee_stats:
+  title: 'Access fossee_stats'
+  description: 'Allows users to view fossee stats.'
+
+view workshop:
+  title: 'View Workshop'
+  description: 'Allows users to view workshop.'
+
+manage workshop:
+  title: 'Manage Workshop'
+  description: 'Allows users to manage workshop.'
+
+view postalcampaign:
+  title: 'View postalcampaign'
+  description: 'Allows users to view postalcampaign.'
+
+manage postalcampaign:
+  title: 'Manage Postalcampaign'
+  description: 'Allows users to manage postalcampaign.'
+
+view tutorial:
+  title: 'View Spoken Tutorial'
+  description: 'Allows users to view spoken tutorial.'
+
+manage tutorial:
+  title: 'Manage Spoken Tutorial'
+  description: 'Allows users to manage spoken tutorial.'
+
+view events:
+  title: 'View Events'
+  description: 'Allows users to view events.'
+
+manage events:
+  title: 'Manage Events'
+  description: 'Allows users to manage events.'
+
+administer events:
+  title: 'Events upload setting'
+  description: 'Allows users to manage postalcampaign.'

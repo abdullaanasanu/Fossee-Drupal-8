@@ -1,0 +1,10 @@
+mapdata:
+  version: 1.x
+  css:
+    layout:
+      assets/css/map.css: {}
+  js:
+    assets/js/map.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

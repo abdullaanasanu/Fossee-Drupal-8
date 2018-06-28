@@ -1,0 +1,24 @@
+/* override bootstrap */
+.btn-large {
+    padding: 8px 19px !important;
+}
+/* main styles */
+#job-application input[type=text],
+#job-application select {
+    width: 55%;
+}
+#job-description legend,
+#job-application legend {
+    text-align: center;
+}
+#quick-links {
+    position: fixed;
+    left: 45px;
+    top: 250px;
+}
+.sync-msg {
+    font-size: .8em;
+}
+.messages.success {
+    background: lightgreen;
+}

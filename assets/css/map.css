@@ -1,0 +1,102 @@
+.state:hover{
+  fill:#000;
+  cursor: pointer;
+}
+
+#poped{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: fixed;
+  top:0;
+  left:0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+#wait{
+  height: 60vh;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  display: none;
+  text-align: center;
+}
+
+#popup{
+  width: 350px;
+  margin: auto;
+  background: white;
+  border-radius: 5px;
+  border: red 1px solid;
+  margin-top: 100px;
+}
+
+#popup h1{
+  font-size: 26px;
+}
+
+#popup h3{
+  font-size: 16px;
+}
+
+#closer{
+  float: right;
+  padding-right: 5px;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+#closer:hover{
+  color:red;
+  cursor: pointer;
+}
+
+.back{
+  color:red;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+#map{
+  margin-top:-110px;
+}
+
+#popup .head{
+  background: #d1cccc;
+  padding-top: 10px;
+  border-bottom: 1px red solid;
+  border-radius: 5px;
+}
+
+#popup .body{
+  padding: 10px;
+  max-height: 250px;
+  overflow: scroll;
+}
+
+@media(max-width: 860px) {
+  #popup h3{
+    font-size: 15px;
+  }
+
+  #popup h1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media(max-width: 600px) {
+  #popup h3{
+    font-size: 14px;
+  }
+
+  #map{
+    margin-top: 0px;
+  }
+}
+
+@media(max-width: 530px) {
+  #popup{
+    width:90%;
+  }
+}
