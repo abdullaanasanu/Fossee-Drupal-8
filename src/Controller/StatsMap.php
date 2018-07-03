@@ -2240,6 +2240,3 @@ class StatsMap extends ControllerBase
   }
 
 }
-
-
- ?>

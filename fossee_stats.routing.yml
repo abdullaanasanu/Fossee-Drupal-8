@@ -9,7 +9,7 @@ fossee_stats.dropdowns:
 fossee_stats.fossee-stats-map:
   path: '/fossee-stats-map'
   defaults:
-    _title: 'FOSSEE STATS'
+    _title: 'FOSSEE Stats Map'
     _form: 'Drupal\fossee_stats\Form\FossForm'
   requirements:
     _permission: 'access fossee_stats'
@@ -43,5 +43,13 @@ fossee_stats.post-office-data:
   defaults:
     _title: 'FOSSEE STATS'
     _controller: 'Drupal\fossee_stats\Controller\StatsMap::post_office_data'
+  requirements:
+    _permission: 'access fossee_stats'
+
+fossee_stats.get-lists:
+  path: '/get-list/{foss_type}/{sub_type}/{status}/{startdate}/{enddate}/{countryname}/{statename}/{cityname}'
+  defaults:
+    _title: 'Lists'
+    _controller: 'Drupal\fossee_stats\Controller\FossStats::get_list'
   requirements:
     _permission: 'access fossee_stats'

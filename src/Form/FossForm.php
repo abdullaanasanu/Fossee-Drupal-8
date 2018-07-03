@@ -75,8 +75,3 @@ class FossForm extends FormBase
   }
 
 }
-
-
-
-
- ?>
