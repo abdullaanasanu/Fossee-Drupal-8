@@ -214,10 +214,3 @@ fossee_stats.stats:
   requirements:
     _permission: 'access fossee_stats'
 
-fossee_stats.test:
-  path: '/test'
-  defaults:
-    _controller: 'Drupal\fossee_stats\Controller\charttest::content'
-    _title: 'STATS'
-  requirements:
-    _permission: 'access fossee_stats'
