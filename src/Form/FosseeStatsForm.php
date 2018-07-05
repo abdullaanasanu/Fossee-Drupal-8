@@ -465,7 +465,7 @@ class FosseeStatsForm extends FormBase {
 
 	        <div id="selfworkshopdata" class="tab-pane fade">'. $this->getselfworkshoplcount(0, $startdate, $enddate, "", "") . '</div>
 
-	        <div id="conferencedata" class="tab-pane fade ">' . $this->EA::conference_seminar_view_all(0, $startdate, $enddate) . '</div>
+	        <div id="conferencedata" class="tab-pane fade ">' . EA::conference_seminar_view_all(0, $startdate, $enddate) . '</div>
 
 	        <div id="spokentutorialdata" class="tab-pane fade ">' . $this->spokentutorial_view_all("") . '</div>
 	 </div>';
@@ -1352,7 +1352,7 @@ class FosseeStatsForm extends FormBase {
 	        <div id="lmtabledata" class="tab-pane fade ">' . $this->get_tabledata_TBC_or_LM("LM", $startdate, $enddate)  . \Drupal::service('renderer')->render(getchart("LM")) . '</div>
 	        </div>
 
-	        <div id="workshopdata" class="tab-pane fade ">' . $this->EA::workshop_view_all(0, $startdate, $enddate) . '</div>
+	        <div id="workshopdata" class="tab-pane fade ">' . EA::workshop_view_all(0, $startdate, $enddate) . '</div>
 
 	        <div id="conferencedata" class="tab-pane fade ">' . EA::conference_seminar_view_all(0, "", "") . '</div>
 
